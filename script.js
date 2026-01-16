@@ -13,6 +13,12 @@ const misslet2 = document.getElementById('misslet2')
 const check1 = document.getElementById('check1')
 const check2 = document.getElementById('check2')
 
+const video = document.getElementById('monkey-video')
+
+video.addEventListener('click', function() {
+    video.play()
+})
+
 pic.addEventListener('click', function() {
     const imgSound = document.getElementById('pic-sound')
     imgSound.play()
